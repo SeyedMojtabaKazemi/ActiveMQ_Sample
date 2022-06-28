@@ -1,0 +1,16 @@
+- Download ActiveMQ from https://activemq.apache.org/
+
+- Extract downloaded File
+
+- Go to "apache-activemq-5.17.1\bin\win64" folder and execute InstallService.bat
+
+- Open Services.msc from Run window and Start ActiveMQ Service
+
+- finally go to "http://localhost:8161/admin" with following credential >>>> Username: admin    Password: admin
+
+
+Default transport connector: 61616
+Default web console: 8161
+
+Change transport connector port number >>>> /conf/activemq.xml
+Change web console port number >>>> /conf/jetty.xml
